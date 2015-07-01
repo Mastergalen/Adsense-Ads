@@ -7,7 +7,6 @@ In your project root run
 
 ```
 composer require mastergalen/adsense-ads
-composer update
 ```
 
 ### Set up config file
