@@ -2,12 +2,7 @@
 
 namespace Mastergalen\AdsenseAds;
 
-
 class AdsBuilder {
-    public function test() {
-        echo env('APP_URL');
-    }
-
     public function show($name) {
         return view('adsense-ads::ad')->with([
             'ad_client' => config("ads.client_id"),
