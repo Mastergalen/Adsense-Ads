@@ -3,15 +3,12 @@ Package for easily including Adsense Ad units in Laravel.
 
 ## Installation
 
-In your `composer.json` file:
+In your project root run 
 
 ```
-"require": {
-  "mastergalen/adsense-ads": "dev-master"
-}
+composer require mastergalen/adsense-ads
+composer update
 ```
-
-Run `composer update`
 
 ### Set up config file
 
