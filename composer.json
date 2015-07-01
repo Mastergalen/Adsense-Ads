@@ -1,0 +1,14 @@
+{
+    "name": "mastergalen/adsense-ads",
+    "description": "Display Adsense ads in your application.",
+    "require": {
+        "php": "^5.6"
+    },
+    "authors": [
+        {
+            "name": "Galen Han",
+            "email": "Mastergalen@users.noreply.github.com"
+        }
+    ],
+    "license": "MIT"
+}
