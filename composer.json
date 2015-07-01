@@ -10,5 +10,6 @@
             "email": "Mastergalen@users.noreply.github.com"
         }
     ],
-    "license": "MIT"
+    "license": "MIT",
+    "minimum-stability": "stable"
 }
