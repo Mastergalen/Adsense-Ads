@@ -1,5 +1,5 @@
-# Adsense Ads
-Package for easily including Adsense Ad units in Laravel.
+# Adsense Ads for Laravel 5
+Package for easily including Adsense Ad units in Laravel 5.
 
 ## Installation
 
@@ -47,4 +47,4 @@ Register an alias:
 ```
 
 ## Usage
-To display the HTML code for your code simply use `{!! Ads::show('responsive') !!}``, for example.
+To show ads in your blade templates simply use `{!! Ads::show('responsive') !!}` , for example.
