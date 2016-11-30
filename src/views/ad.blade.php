@@ -4,7 +4,7 @@
      style="{!! $ad_style !!}"
      data-ad-client="{!! $ad_client !!}"
      data-ad-slot="{!! $ad_slot !!}"
-     data-ad-format="{!! $ad_format !!}"></ins>
+     <?php if (isset($ad_format)): ?> data-ad-format="{!! $ad_format !!}" <?php endif; ?>></ins>
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>

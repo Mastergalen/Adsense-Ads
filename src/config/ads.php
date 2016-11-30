@@ -10,7 +10,6 @@ return [
         'rectangle' => [
             'ad_unit_id' => 1234567890,
             'ad_style' => 'display:inline-block;width:300px;height:250px',
-            'ad_format' => 'auto'
         ]
     ]
 ];
