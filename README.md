@@ -1,9 +1,14 @@
 # Adsense Ads for Laravel 5
+
+[![License](https://poser.pugx.org/mastergalen/adsense-ads/license)](https://packagist.org/packages/mastergalen/adsense-ads)
+[![Latest Stable Version](https://poser.pugx.org/mastergalen/adsense-ads/v/stable)](https://packagist.org/packages/mastergalen/adsense-ads)
+[![Total Downloads](https://poser.pugx.org/mastergalen/adsense-ads/downloads)](https://packagist.org/packages/mastergalen/adsense-ads)
+
 Package for easily including Adsense Ad units in Laravel 5.
 
 ## Installation
 
-In your project root run 
+In your project root run
 
 ```
 composer require mastergalen/adsense-ads
@@ -15,7 +20,7 @@ Run `php artisan config:publish mastergalen/adsense-ads`.
 
 Edit the generated config file in `/config/ads.php` to add your ad units
 
-```
+```php
 return [
     'client_id' => 'YOUR_CLIENT_ID', //Your Adsense client ID e.g. ca-pub-9508939161510421
     'ads' => [
@@ -36,13 +41,13 @@ return [
 
 Add the provider to the `providers` array in your `config/app.php` file:
 
-```
+```php
 Mastergalen\AdsenseAds\AdsServiceProvider::class,
 ```
 
 Register an alias:
 
-```
+```php
 'Ads' => Mastergalen\AdsenseAds\AdsFacade::class,
 ```
 
